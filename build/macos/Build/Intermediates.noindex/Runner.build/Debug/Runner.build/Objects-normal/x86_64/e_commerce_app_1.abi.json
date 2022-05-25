@@ -1,0 +1,364 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Cocoa",
+      "printedName": "Cocoa",
+      "declKind": "Import",
+      "moduleName": "e_commerce_app_1"
+    },
+    {
+      "kind": "Import",
+      "name": "FlutterMacOS",
+      "printedName": "FlutterMacOS",
+      "declKind": "Import",
+      "moduleName": "e_commerce_app_1"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "MainFlutterWindow",
+      "printedName": "MainFlutterWindow",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "awakeFromNib",
+          "printedName": "awakeFromNib()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@e_commerce_app_1@objc(cs)MainFlutterWindow(im)awakeFromNib",
+          "mangledName": "$s16e_commerce_app_117MainFlutterWindowC12awakeFromNibyyF",
+          "moduleName": "e_commerce_app_1",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "awakeFromNib",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(contentRect:styleMask:backing:defer:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "MainFlutterWindow",
+              "printedName": "e_commerce_app_1.MainFlutterWindow",
+              "usr": "c:@M@e_commerce_app_1@objc(cs)MainFlutterWindow"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGRect",
+              "printedName": "CoreGraphics.CGRect",
+              "usr": "c:@S@CGRect"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "StyleMask",
+              "printedName": "AppKit.NSWindow.StyleMask",
+              "usr": "c:@E@NSWindowStyleMask"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "BackingStoreType",
+              "printedName": "AppKit.NSWindow.BackingStoreType",
+              "usr": "c:@E@NSBackingStoreType"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@e_commerce_app_1@objc(cs)MainFlutterWindow(im)initWithContentRect:styleMask:backing:defer:",
+          "mangledName": "$s16e_commerce_app_117MainFlutterWindowC11contentRect9styleMask7backing5deferACSo6CGRectV_So013NSWindowStyleI0VSo18NSBackingStoreTypeVSbtcfc",
+          "moduleName": "e_commerce_app_1",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithContentRect:styleMask:backing:defer:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@e_commerce_app_1@objc(cs)MainFlutterWindow",
+      "mangledName": "$s16e_commerce_app_117MainFlutterWindowC",
+      "moduleName": "e_commerce_app_1",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSWindow",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "AppKit.NSWindow",
+        "AppKit.NSResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Cocoa",
+      "printedName": "Cocoa",
+      "declKind": "Import",
+      "moduleName": "e_commerce_app_1"
+    },
+    {
+      "kind": "Import",
+      "name": "FlutterMacOS",
+      "printedName": "FlutterMacOS",
+      "declKind": "Import",
+      "moduleName": "e_commerce_app_1"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "AppDelegate",
+      "printedName": "AppDelegate",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "applicationShouldTerminateAfterLastWindowClosed",
+          "printedName": "applicationShouldTerminateAfterLastWindowClosed(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSApplication",
+              "printedName": "AppKit.NSApplication",
+              "usr": "c:objc(cs)NSApplication"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@e_commerce_app_1@objc(cs)AppDelegate(im)applicationShouldTerminateAfterLastWindowClosed:",
+          "mangledName": "$s16e_commerce_app_111AppDelegateC47applicationShouldTerminateAfterLastWindowClosedySbSo13NSApplicationCF",
+          "moduleName": "e_commerce_app_1",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "applicationShouldTerminateAfterLastWindowClosed:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AppDelegate",
+              "printedName": "e_commerce_app_1.AppDelegate",
+              "usr": "c:@M@e_commerce_app_1@objc(cs)AppDelegate"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@e_commerce_app_1@objc(cs)AppDelegate(im)init",
+          "mangledName": "$s16e_commerce_app_111AppDelegateCACycfc",
+          "moduleName": "e_commerce_app_1",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@e_commerce_app_1@objc(cs)AppDelegate",
+      "mangledName": "$s16e_commerce_app_111AppDelegateC",
+      "moduleName": "e_commerce_app_1",
+      "isOpen": true,
+      "declAttributes": [
+        "NSApplicationMain",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)FlutterAppDelegate",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "FlutterMacOS.FlutterAppDelegate",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "FlutterMacOS",
+      "printedName": "FlutterMacOS",
+      "declKind": "Import",
+      "moduleName": "e_commerce_app_1",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "e_commerce_app_1"
+    },
+    {
+      "kind": "Import",
+      "name": "path_provider_macos",
+      "printedName": "path_provider_macos",
+      "declKind": "Import",
+      "moduleName": "e_commerce_app_1"
+    },
+    {
+      "kind": "Function",
+      "name": "RegisterGeneratedPlugins",
+      "printedName": "RegisterGeneratedPlugins(registry:)",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Void",
+          "printedName": "()"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "FlutterPluginRegistry",
+          "printedName": "FlutterMacOS.FlutterPluginRegistry",
+          "usr": "c:objc(pl)FlutterPluginRegistry"
+        }
+      ],
+      "declKind": "Func",
+      "usr": "s:16e_commerce_app_124RegisterGeneratedPlugins8registryySo21FlutterPluginRegistry_p_tF",
+      "mangledName": "$s16e_commerce_app_124RegisterGeneratedPlugins8registryySo21FlutterPluginRegistry_p_tF",
+      "moduleName": "e_commerce_app_1",
+      "funcSelfKind": "NonMutating"
+    }
+  ],
+  "json_format_version": 6
+}

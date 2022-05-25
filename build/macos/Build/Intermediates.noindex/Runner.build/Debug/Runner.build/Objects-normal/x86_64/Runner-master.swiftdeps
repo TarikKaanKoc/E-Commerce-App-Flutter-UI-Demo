@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
+options: "d587bc40a4a75e5d4ae77b2063253da7ef624d0b6946f6e8c2da19257daccb25"
+build_start_time: [1653303559, 749289989]
+build_end_time: [1653303566, 651823997]
+inputs:
+  "/Users/koc/Desktop/flutter_learn_project/e_commerce_app_1/macos/Flutter/GeneratedPluginRegistrant.swift": [1653303514, 784349679]
+  "/Users/koc/Desktop/flutter_learn_project/e_commerce_app_1/macos/Runner/AppDelegate.swift": [1652258284, 0]
+  "/Users/koc/Desktop/flutter_learn_project/e_commerce_app_1/macos/Runner/MainFlutterWindow.swift": [1652258284, 0]
