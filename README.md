@@ -15,4 +15,4 @@ samples, guidance on mobile development, and a full API reference.
 
  Home Page                  |  Product Details Page
 :-------------------------:|:-------------------------:
-![HWA Social iOS](https://github.com/TarikKaanKoc/Flutter_E-Commerce_App_Demo.1/blob/master/project_screen.png?raw=true)  |  ![HWA Social Androd](https://github.com/TarikKaanKoc/Flutter_E-Commerce_App_Demo.1/blob/master/project_screen2.png?raw=true)
+![Home Page](https://github.com/TarikKaanKoc/Flutter_E-Commerce_App_Demo.1/blob/master/project_screen.png?raw=true)  |  ![Product Details Page](https://github.com/TarikKaanKoc/Flutter_E-Commerce_App_Demo.1/blob/master/project_screen2.png?raw=true)
